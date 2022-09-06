@@ -1,0 +1,60 @@
+.footer-page {
+  background-color: rgba(0, 0, 0, 0.89);
+  min-height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 2px solid white;
+  padding-top: 20px;
+}
+
+.p-footer {
+    color: aliceblue;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.icon-github, 
+.icon-linkedin {
+    min-height: 50px;
+    width: 50px;
+    transition-duration: 0.5s;
+}
+
+.icon-github:hover {
+    color: rgb(68, 68, 68);
+}
+
+.icon-linkedin:hover {
+    color: rgba(31, 14, 177, 0.74);
+}
+
+.my-name {
+    color: rgb(0, 81, 255);
+}
+
+.social-networks {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.social-networks a {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 700;
+}
+
+h3 {
+    color: gray;
+    font-size: 25px;
+    font-weight: 900;
+}
