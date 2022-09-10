@@ -29,7 +29,7 @@ function Footer() {
       </div>
 
       <p className="p-footer">
-        Desenvolvido por <span className="my-name">Victor Silva</span>, 2022 © - Projeto Star Wars.</p>
+        Developed by <span className="my-name">Victor Silva</span>, 2022 © - Project Star Wars.</p>
     </div>
   )
 }

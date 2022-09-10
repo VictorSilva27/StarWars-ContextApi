@@ -108,6 +108,35 @@ button:hover {
     padding: 10px;
 }
 
+@media screen and (max-width: 1500px)  {
+
+    .select-filter div {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .name-filter {
+      width: 45%;
+    }
+
+    .filters-order {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    select {
+        width: 50%;
+    }
+
+    .number-input {
+        width: 100px;
+    }
+}
+
 .filters {
     padding: 15px;
     display: flex;
